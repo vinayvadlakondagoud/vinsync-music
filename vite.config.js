@@ -4,4 +4,5 @@ import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
   plugins: [react({ jsxRuntime: 'automatic' }), tailwindcss()],
+  base: '/vinsync-music/',
 })

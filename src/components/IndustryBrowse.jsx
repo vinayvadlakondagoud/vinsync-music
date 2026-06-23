@@ -120,10 +120,10 @@ const IndustryBrowse = () => {
             >
               <div className="relative mb-3 aspect-square">
                 <img
-                  src={song.image || '/img/default.png'}
+                  src={song.image || (import.meta.env.BASE_URL || '/') + 'img/default.png'}
                   alt={song.name}
                   className="w-full h-full object-cover rounded-xl shadow-lg"
-                  onError={(e) => { e.target.src = '/img/default.png'; }}
+                  onError={(e) => { e.target.src = (import.meta.env.BASE_URL || '/') + 'img/default.png'; }}
                 />
                 <div className="absolute bottom-2 right-2 translate-y-2 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all">
                   <button

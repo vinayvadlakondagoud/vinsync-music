@@ -1,161 +1,163 @@
+const base = import.meta.env.BASE_URL || '/';
+
 export const playlist = [
   {
     id: 1, name: "Blinding Lights", artist: "The Weeknd",
-    image: "/img/blinding_lights.webp", audio: "https://res.cloudinary.com/dgopx1osv/video/upload/v1748895502/pf6binaj3qvbhsknb0rg.mp3",
+    image: base + "/img/blinding_lights.webp", audio: "https://res.cloudinary.com/dgopx1osv/video/upload/v1748895502/pf6binaj3qvbhsknb0rg.mp3",
     industry: "hollywood", mood: "energetic",
   },
   {
     id: 2, name: "Shape of You", artist: "Ed Sheeran",
-    image: "/img/shape_of_you.webp", audio: "https://res.cloudinary.com/dgopx1osv/video/upload/v1748895491/hwwokodskmbtalyonv5i.mp3",
+    image: base + "/img/shape_of_you.webp", audio: "https://res.cloudinary.com/dgopx1osv/video/upload/v1748895491/hwwokodskmbtalyonv5i.mp3",
     industry: "hollywood", mood: "romantic",
   },
   {
     id: 3, name: "Watermelon Sugar", artist: "Harry Styles",
-    image: "/img/Watermelon_Sugar.webp", audio: "https://res.cloudinary.com/dgopx1osv/video/upload/v1748895493/vcsriagueh19kytectqu.mp3",
+    image: base + "/img/Watermelon_Sugar.webp", audio: "https://res.cloudinary.com/dgopx1osv/video/upload/v1748895493/vcsriagueh19kytectqu.mp3",
     industry: "hollywood", mood: "chill",
   },
   {
     id: 4, name: "Levitating", artist: "Dua Lipa",
-    image: "/img/levitating.webp", audio: "https://res.cloudinary.com/dgopx1osv/video/upload/v1748895499/rfehzlftqtcfumddna76.mp3",
+    image: base + "/img/levitating.webp", audio: "https://res.cloudinary.com/dgopx1osv/video/upload/v1748895499/rfehzlftqtcfumddna76.mp3",
     industry: "hollywood", mood: "energetic",
   },
   {
     id: 5, name: "Good For You", artist: "Selena Gomez",
-    image: "/img/good_for_you.webp", audio: "https://res.cloudinary.com/dgopx1osv/video/upload/v1748895486/egviyuzdialsc5os31rm.mp3",
+    image: base + "/img/good_for_you.webp", audio: "https://res.cloudinary.com/dgopx1osv/video/upload/v1748895486/egviyuzdialsc5os31rm.mp3",
     industry: "hollywood", mood: "romantic",
   },
   {
     id: 6, name: "As It Was", artist: "Harry Styles",
-    image: "/img/As_It_Was.webp", audio: "https://res.cloudinary.com/dgopx1osv/video/upload/v1748895499/ujb5rk1uxxyhthfcfvke.mp3",
+    image: base + "/img/As_It_Was.webp", audio: "https://res.cloudinary.com/dgopx1osv/video/upload/v1748895499/ujb5rk1uxxyhthfcfvke.mp3",
     industry: "hollywood", mood: "chill",
   },
   {
     id: 7, name: "Heat Waves", artist: "Glass Animals",
-    image: "/img/Heat_Waves.webp", audio: "https://res.cloudinary.com/dgopx1osv/video/upload/v1748895486/hroghn12whtrysvnuqvr.mp3",
+    image: base + "/img/Heat_Waves.webp", audio: "https://res.cloudinary.com/dgopx1osv/video/upload/v1748895486/hroghn12whtrysvnuqvr.mp3",
     industry: "hollywood", mood: "chill",
   },
   {
     id: 8, name: "Lost In The Fire", artist: "The Weeknd ft. Gesaffelstein",
-    image: "/img/lost_in_the_fire.webp", audio: "https://res.cloudinary.com/dgopx1osv/video/upload/v1748895490/htyxtdlcouel95nn7lfv.mp3",
+    image: base + "/img/lost_in_the_fire.webp", audio: "https://res.cloudinary.com/dgopx1osv/video/upload/v1748895490/htyxtdlcouel95nn7lfv.mp3",
     industry: "hollywood", mood: "dark",
   },
   {
     id: 9, name: "After Hours", artist: "The Weeknd",
-    image: "/img/after_hours.webp", audio: "https://res.cloudinary.com/dgopx1osv/video/upload/v1748895511/uq2xyxnwrfpq3fjptipm.mp3",
+    image: base + "/img/after_hours.webp", audio: "https://res.cloudinary.com/dgopx1osv/video/upload/v1748895511/uq2xyxnwrfpq3fjptipm.mp3",
     industry: "hollywood", mood: "dark",
   },
   {
     id: 10, name: "Timeless", artist: "The Weeknd ft. Playboi Carti",
-    image: "/img/timeless.webp", audio: "https://res.cloudinary.com/dgopx1osv/video/upload/v1748895497/hhixueu6xc11cpvcptx8.mp3",
+    image: base + "/img/timeless.webp", audio: "https://res.cloudinary.com/dgopx1osv/video/upload/v1748895497/hhixueu6xc11cpvcptx8.mp3",
     industry: "hollywood", mood: "dark",
   },
   {
     id: 11, name: "Closer", artist: "The Chainsmokers ft. Halsey",
-    image: "/img/closer.webp", audio: "https://res.cloudinary.com/dgopx1osv/video/upload/v1748895507/hctfymstp7owrjot9yjg.mp3",
+    image: base + "/img/closer.webp", audio: "https://res.cloudinary.com/dgopx1osv/video/upload/v1748895507/hctfymstp7owrjot9yjg.mp3",
     industry: "hollywood", mood: "romantic",
   },
   {
     id: 12, name: "Ijazat", artist: "Falak Shabir",
-    image: "/img/falak_ijazat.webp", audio: "https://res.cloudinary.com/dgopx1osv/video/upload/v1748895499/sckaayxcfuukgjh7b7gk.mp3",
+    image: base + "/img/falak_ijazat.webp", audio: "https://res.cloudinary.com/dgopx1osv/video/upload/v1748895499/sckaayxcfuukgjh7b7gk.mp3",
     industry: "bollywood", mood: "romantic",
   },
   {
     id: 13, name: "Superman", artist: "Yo Yo Honey Singh",
-    image: "/img/superman.webp", audio: "https://res.cloudinary.com/dgopx1osv/video/upload/v1748895501/qpxdar1dsaztyo9itvci.mp3",
+    image: base + "/img/superman.webp", audio: "https://res.cloudinary.com/dgopx1osv/video/upload/v1748895501/qpxdar1dsaztyo9itvci.mp3",
     industry: "bollywood", mood: "energetic",
   },
   {
     id: 14, name: "Call Aundi", artist: "Yo Yo Honey Singh",
-    image: "/img/call_aundi.webp", audio: "https://res.cloudinary.com/dgopx1osv/video/upload/v1748895509/aajxuktntjucjgiun477.mp3",
+    image: base + "/img/call_aundi.webp", audio: "https://res.cloudinary.com/dgopx1osv/video/upload/v1748895509/aajxuktntjucjgiun477.mp3",
     industry: "bollywood", mood: "energetic",
   },
   {
     id: 15, name: "Desi Kalakaar", artist: "Yo Yo Honey Singh",
-    image: "/img/desi_kalakaar.webp", audio: "https://res.cloudinary.com/dgopx1osv/video/upload/v1748895485/adjemgaydondh7oiz3ma.mp3",
+    image: base + "/img/desi_kalakaar.webp", audio: "https://res.cloudinary.com/dgopx1osv/video/upload/v1748895485/adjemgaydondh7oiz3ma.mp3",
     industry: "bollywood", mood: "energetic",
   },
     {
     id: 16, name: "Mitti Di Khushboo", artist: "Ayushmann Khurrana",
-    image: "/img/mitti_di_khusboo.webp", audio: "https://res.cloudinary.com/dgopx1osv/video/upload/v1748895489/ctdnj8h9jqogaoqnfksn.mp3",
+    image: base + "/img/mitti_di_khusboo.webp", audio: "https://res.cloudinary.com/dgopx1osv/video/upload/v1748895489/ctdnj8h9jqogaoqnfksn.mp3",
     industry: "bollywood", mood: "chill",
   },
 
   // === Allu Arjun Telugu Songs ===
   {
     id: 17, name: "Srivalli", artist: "Allu Arjun ft. Sid Sriram",
-    image: "/img/srivalli.webp", audio: "https://res.cloudinary.com/dgdzewqko/video/upload/v1782232691/songs/gwq4u9zl4rk4wsw1wojx.mp3",
+    image: base + "/img/srivalli.webp", audio: "https://res.cloudinary.com/dgdzewqko/video/upload/v1782232691/songs/gwq4u9zl4rk4wsw1wojx.mp3",
     industry: "tollywood", mood: "romantic",
   },
   {
     id: 18, name: "Oo Antava Oo Oo Antava", artist: "Allu Arjun ft. Indravathi",
-    image: "/img/oo_antava.webp", audio: "https://res.cloudinary.com/dgdzewqko/video/upload/v1782232709/songs/xqkts1vaqpxmch1cyv0s.mp3",
+    image: base + "/img/oo_antava.webp", audio: "https://res.cloudinary.com/dgdzewqko/video/upload/v1782232709/songs/xqkts1vaqpxmch1cyv0s.mp3",
     industry: "tollywood", mood: "energetic",
   },
   {
     id: 19, name: "Butta Bomma", artist: "Allu Arjun ft. Armaan Malik",
-    image: "/img/butta_bomma.webp", audio: "https://res.cloudinary.com/dgdzewqko/video/upload/v1782232727/songs/m5amphtbnagards0d0rk.mp3",
+    image: base + "/img/butta_bomma.webp", audio: "https://res.cloudinary.com/dgdzewqko/video/upload/v1782232727/songs/m5amphtbnagards0d0rk.mp3",
     industry: "tollywood", mood: "romantic",
   },
   {
     id: 20, name: "Samajavaragamana", artist: "Allu Arjun ft. Sid Sriram",
-    image: "/img/samajavaragamana.webp", audio: "https://res.cloudinary.com/dgdzewqko/video/upload/v1782232743/songs/jtat8wj7xc1nzyebkmws.mp3",
+    image: base + "/img/samajavaragamana.webp", audio: "https://res.cloudinary.com/dgdzewqko/video/upload/v1782232743/songs/jtat8wj7xc1nzyebkmws.mp3",
     industry: "tollywood", mood: "romantic",
   },
   {
     id: 21, name: "Ramuloo Ramulaa", artist: "Allu Arjun ft. Anurag Kulkarni",
-    image: "/img/ramuloo_ramulaa.webp", audio: "https://res.cloudinary.com/dgdzewqko/video/upload/v1782232762/songs/ifekpyazgrfgxedgiju1.mp3",
+    image: base + "/img/ramuloo_ramulaa.webp", audio: "https://res.cloudinary.com/dgdzewqko/video/upload/v1782232762/songs/ifekpyazgrfgxedgiju1.mp3",
     industry: "tollywood", mood: "energetic",
   },
   {
     id: 22, name: "Naatu Naatu", artist: "RRR ft. Rahul Sipligunj, Kaala Bhairava",
-    image: "/img/naatu_naatu.webp", audio: "https://res.cloudinary.com/dgdzewqko/video/upload/v1782232784/songs/hpsojnkss6cnmkcvinur.mp3",
+    image: base + "/img/naatu_naatu.webp", audio: "https://res.cloudinary.com/dgdzewqko/video/upload/v1782232784/songs/hpsojnkss6cnmkcvinur.mp3",
     industry: "tollywood", mood: "energetic",
   },
   {
     id: 23, name: "Top Levedi", artist: "Allu Arjun ft. Geetha Madhuri",
-    image: "/img/top_levedi.webp", audio: "https://res.cloudinary.com/dgdzewqko/video/upload/v1782235073/songs/awqhanm208fty82obmzd.mp3",
+    image: base + "/img/top_levedi.webp", audio: "https://res.cloudinary.com/dgdzewqko/video/upload/v1782235073/songs/awqhanm208fty82obmzd.mp3",
     industry: "tollywood", mood: "energetic",
   },
 
   // === Bollywood Songs ===
   {
     id: 24, name: "Kesariya", artist: "Arijit Singh",
-    image: "/img/kesariya.webp", audio: "https://res.cloudinary.com/dgdzewqko/video/upload/v1782232805/songs/klqs6vsqt50vuaoq1ski.mp3",
+    image: base + "/img/kesariya.webp", audio: "https://res.cloudinary.com/dgdzewqko/video/upload/v1782232805/songs/klqs6vsqt50vuaoq1ski.mp3",
     industry: "bollywood", mood: "romantic",
   },
   {
     id: 25, name: "Apna Bana Le", artist: "Arijit Singh",
-    image: "/img/apna_bana_le.webp", audio: "https://res.cloudinary.com/dgdzewqko/video/upload/v1782232822/songs/xqyiiszo7d4td2xy2bnt.mp3",
+    image: base + "/img/apna_bana_le.webp", audio: "https://res.cloudinary.com/dgdzewqko/video/upload/v1782232822/songs/xqyiiszo7d4td2xy2bnt.mp3",
     industry: "bollywood", mood: "romantic",
   },
   {
     id: 26, name: "Tum Kya Mile", artist: "Arijit Singh, Shreya Ghoshal",
-    image: "/img/tum_kya_mile.webp", audio: "https://res.cloudinary.com/dgdzewqko/video/upload/v1782232840/songs/eeiuulopibpwzujzdnby.mp3",
+    image: base + "/img/tum_kya_mile.webp", audio: "https://res.cloudinary.com/dgdzewqko/video/upload/v1782232840/songs/eeiuulopibpwzujzdnby.mp3",
     industry: "bollywood", mood: "romantic",
   },
   {
     id: 27, name: "Chaleya", artist: "Arijit Singh, Shilpa Rao",
-    image: "/img/chaleya.webp", audio: "https://res.cloudinary.com/dgdzewqko/video/upload/v1782232878/songs/fmnorp3gjafsphatevoy.mp3",
+    image: base + "/img/chaleya.webp", audio: "https://res.cloudinary.com/dgdzewqko/video/upload/v1782232878/songs/fmnorp3gjafsphatevoy.mp3",
     industry: "bollywood", mood: "chill",
   },
   {
     id: 28, name: "Heeriye", artist: "Jasleen Royal ft. Arijit Singh",
-    image: "/img/heeriye.webp", audio: "https://res.cloudinary.com/dgdzewqko/video/upload/v1782232903/songs/vfuh9icj0zcohchj9mho.mp3",
+    image: base + "/img/heeriye.webp", audio: "https://res.cloudinary.com/dgdzewqko/video/upload/v1782232903/songs/vfuh9icj0zcohchj9mho.mp3",
     industry: "bollywood", mood: "romantic",
   },
   {
     id: 29, name: "Saari Duniya Jalaa Denge", artist: "B Praak ft. Jaani",
-    image: "/img/saari_duniya.webp", audio: "https://res.cloudinary.com/dgdzewqko/video/upload/v1782232939/songs/hzflf6mao6iuy3bywh9b.mp3",
+    image: base + "/img/saari_duniya.webp", audio: "https://res.cloudinary.com/dgdzewqko/video/upload/v1782232939/songs/hzflf6mao6iuy3bywh9b.mp3",
     industry: "bollywood", mood: "dark",
   },
   {
     id: 30, name: "Pehle Bhi Main", artist: "Vishal Mishra",
-    image: "/img/pehle_bhi_main.webp", audio: "https://res.cloudinary.com/dgdzewqko/video/upload/v1782232968/songs/sawudawdwojujbkjntwl.mp3",
+    image: base + "/img/pehle_bhi_main.webp", audio: "https://res.cloudinary.com/dgdzewqko/video/upload/v1782232968/songs/sawudawdwojujbkjntwl.mp3",
     industry: "bollywood", mood: "sad",
   },
   {
     id: 31, name: "Arjan Vailly", artist: "Bhupinder Babbal",
-    image: "/img/arjan_vailly.webp", audio: "https://res.cloudinary.com/dgdzewqko/video/upload/v1782232992/songs/rcyljnkod7wqrdhigear.mp3",
+    image: base + "/img/arjan_vailly.webp", audio: "https://res.cloudinary.com/dgdzewqko/video/upload/v1782232992/songs/rcyljnkod7wqrdhigear.mp3",
     industry: "bollywood", mood: "energetic",
   },
   {

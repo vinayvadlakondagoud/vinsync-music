@@ -265,7 +265,7 @@ const SearchView = ({ setCurrentView, setSelectedArtist, setSelectedAlbum }) => 
                                     className="bg-white/5 border border-white/5 hover:bg-white/10 hover:border-white/10 p-3 md:p-4 rounded-2xl transition-all cursor-pointer group backdrop-blur-md shadow-lg flex flex-col"
                                 >
                                 <div className="relative mb-3 md:mb-4 w-full aspect-square">
-                                    <img src={song.image || '/img/default.png'} alt={song.name} className="w-full h-full object-cover rounded-xl shadow-lg group-hover:shadow-cyan-500/20 transition-all" onError={(e) => { e.target.src = '/img/default.png'; }} />
+                                    <img src={song.image || (import.meta.env.BASE_URL || '/') + 'img/default.png'} alt={song.name} className="w-full h-full object-cover rounded-xl shadow-lg group-hover:shadow-cyan-500/20 transition-all" onError={(e) => { e.target.src = (import.meta.env.BASE_URL || '/') + 'img/default.png'; }} />
                                     <div className="absolute bottom-2 right-2 translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300 flex gap-1.5">
                                         {!isSongDownloaded(song.id) && !isSongDownloading(song.id) && (
                                             <button 

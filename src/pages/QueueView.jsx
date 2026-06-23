@@ -113,10 +113,10 @@ const QueueView = () => {
                             </div>
 
                             <img
-                                src={song.image || '/img/default.png'}
+                                src={song.image || (import.meta.env.BASE_URL || '/') + 'img/default.png'}
                                 alt={song.name}
                                 className="w-10 h-10 rounded-lg object-cover flex-shrink-0"
-                                onError={(e) => { e.target.src = '/img/default.png'; }}
+                                onError={(e) => { e.target.src = (import.meta.env.BASE_URL || '/') + 'img/default.png'; }}
                             />
                             <div className="flex-1 min-w-0">
                                 <h4 className="text-sm font-bold text-white truncate">{song.name}</h4>

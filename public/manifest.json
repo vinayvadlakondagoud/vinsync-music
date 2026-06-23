@@ -1,0 +1,32 @@
+{
+    "name": "VinSync Music Player",
+    "short_name": "VinSync",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#050505",
+    "theme_color": "#06b6d4",
+    "description": "Discover and sync music across every industry worldwide.",
+    "categories": ["music", "entertainment", "social"],
+    "screenshots": [],
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "/img/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/img/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/vinsync.svg",
+            "sizes": "any",
+            "type": "image/svg+xml",
+            "purpose": "any"
+        }
+    ]
+}
